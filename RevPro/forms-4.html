@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Forms</title>
+	</head>
+	<body>
+		<p>Form with input submit and placeholder</p>
+		<form method="post" action="">
+			<input type="hidden" value="12345678" />
+			<div>
+				<h4>User Credentials</h4>
+				
+				<input type="email" name="email" placeholder="email" required />
+				<input type="password" name="password" placeholder="password" required />
+			</div>
+			<br/>
+			<div>
+				<h4>Address</h4>
+				<input id="street" name="address-1" type="text" placeholder="street" required />
+				<br/>
+				
+				<input id="city" name="address-2" type="text" placeholder="city"required />
+				<br/>
+				
+				<label for="state" />State</label>
+				<select id="state" name="state" placeholder="State" required>
+					<option value="" disabled selected>-</option>
+					<option value="VA">VA</option>
+					<option value="MD">MD</option>
+					<option value="DC">DC</option>
+					
+				</select>
+				<br/>
+				
+				<input id="zipcode" name="address-4" type="text" maxlength="5" placeholder="zipcode" required />
+			</div>
+			<br/>
+			<label for="gender-1">Male</label>
+			<input type="radio" id="gender-1" name="gender" value="male" />
+			
+			<label for="gender-2">Female</label>
+			<input type="radio" id="gender" name="gender" value="female" />
+			
+			<br/>
+			<label for="notifications">Receive Email Notifications</label>
+			<input type="checkbox" name="notifications" id="notifications" />
+			
+			<br/>
+			<input type="submit" value="Register" />
+		</form>
+	</body>
+</html>

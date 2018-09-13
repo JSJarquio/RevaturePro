@@ -1,0 +1,15 @@
+html {
+	margin: 0;
+}
+
+h1 {
+	color: #cc0000;
+	background-color: #ffd8cc;
+	padding: 20px;
+}
+
+h2 {
+	color: #ff9900;
+	background-color: #ffffcc;
+	padding: 5px;
+}
