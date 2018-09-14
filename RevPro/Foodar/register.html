@@ -1,43 +1,52 @@
 <DOCTYPE! html>
 <html>
 	<head>
-		<title>About Foodar</title>
+		<title>Register With Foodar</title>
 		<link rel="stylesheet" type="text/css" href="style.css" />
 	</head>
 	
 	<body>
-		<div>
-			<p>Foodar</p>
+		<div class="foodar">
+			<h1>Foodar</h1>
 		</div>
-		
 		<div>
 			<h2>Register</h2>
 			<p>Please fill out the form below:</p>
 		</div>
-		
-		<div>
 			<form>
-				<fieldset>
-					<legend>Details:</legend>
-					<br />
-						<input id="email" type="text" placeholder="Email" required /><br />
-						<input id="password" type="password" placeholder="Password" required /><br />
-						<input id="firstname" type="text" placeholder="First Name" required /><br />
-						<input id="lastname" type="text" placeholder="Last Name" required /><br />
-				</fieldset>
-				<br />
-				<fieldset>
-					<legend>Address:</legend>
-					<br />
-						<input id="address" type="text" placeholder="Address" required /><br />
-						<input id="street" type="text" placeholder="Street" required /><br />
-						<input id="city" type="text" placeholder="City" required /><br />
-						<input id="zipcode" type="text" placeholder="Zipcode" required /><br />
-				</fieldset>
-				<br />
-				<input type="submit" value="Register">
+				<div id="details">
+					<h3>Details: </h3>
+						<input id="email" type="text" placeholder="Email" required />
+						<br />
+						<input id="password" type="password" placeholder="Password" required />
+						<br />
+						<input id="firstname" type="text" placeholder="First Name" required />
+						<br />
+						<input id="lastname" type="text" placeholder="Last Name" required />
+						<br />
+				</div>
+				<div id="address">
+					<h3>Address: </h3>
+						<input id="address1" type="text" placeholder="Address" required />
+						<br />
+						<input id="street" type="text" placeholder="Street" required />
+						<br />
+						<input id="city" type="text" placeholder="City" required />
+						<br />
+						<input id="zipcode" type="text" placeholder="Zipcode" required />
+						<br />
+				</div>
 			</form>
-		</div>
-				
+			<br />
+			<input id="register" type="submit" value="Register" />	
 	</body>
+	
+	<footer id="footer">
+			<a href="index.html">Foodar&copy; Home</a>
+			<a href="about.html">How It Works</a>
+			<a href="register.html">Register</a>
+			<a href="">Contact Us</a>
+			<a href="">Privacy Policy</a>
+			<a href="">Terms &amp; Conditions</a>
+	</footer>
 </html>

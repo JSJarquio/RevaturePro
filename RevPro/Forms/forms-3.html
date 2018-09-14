@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Forms and Name Attribute</title>
+	</head>
+	<body>
+		<p>Form with Button</p>
+		<form method="get" action="">
+			<input type="hidden" value="12345678" />
+			<fieldset>
+				<legend>User Credentials</legend>
+				
+				<label>Username: <input type="text" name="username"/></label>
+				<label>Password: <input type="password" name="password" /></label>
+			</fieldset>
+			<br/>
+			<fieldset>
+				<legend>User Address</legend>
+				<label for="street" />Street</label>
+				<input id="street" name="address-1" type="text" />
+				<br/>
+				
+				<label for="city" />City</label>
+				<input id="city" name="address-2" type="text" />
+				<br/>
+				
+				<label for="state" />State</label>
+				<select id="state" name="state">
+					<option value="VA">VA</option>
+					<option value="MD">MD</option>
+					<option value="DC">DC</option>
+				</select>
+				<br/>
+				
+				<label for="zipcode" />Zipcode</label>
+				<input id="zipcode" name="address-4" type="text" maxlength="5"/>
+			</fieldset>
+			<br/>
+			<label for="gender-1">Male</label>
+			<input type="radio" id="gender-1" name="gender" value="male" />
+			
+			<label for="gender-2">Female</label>
+			<input type="radio" id="gender" name="gender" value="female" />
+			
+			<input type="radio" id="gender" name="gender2" value="female" />
+			
+			<br/>
+			<label for="notifications">Receive Email Notifications</label>
+			<input type="checkbox" name="notifications" id="notifications" />
+			
+			<br/>
+			<br/>
+			<button>Button</button>
+		</form>
+	</body>
+</html>

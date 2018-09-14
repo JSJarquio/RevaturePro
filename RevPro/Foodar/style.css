@@ -1,5 +1,18 @@
-html {
+html, body {
 	margin: 0;
+}
+
+#banner {
+	position: absolute;
+	top: 0;
+}
+
+div.banner {
+	text-align: center;
+	padding: 1px;
+	font-size: 14pt;
+	background-color: lightgrey;
+	color: green;
 }
 
 h1 {
@@ -8,8 +21,66 @@ h1 {
 	padding: 20px;
 }
 
+#foodar {
+	color: #cc0000;
+	background-color: #ffd8cc;
+	padding: 20px;
+}
+
 h2 {
 	color: #ff9900;
 	background-color: #ffffcc;
+	padding: 5px 10px;
+}
+
+h3 {
+	color: #ff9900;
+	background-color: #ffffcc;
+	padding: 5px 10px;
+}
+
+p {
+	padding-left: 20px;
+}
+
+div p + a {
+	margin-left: 20px;
+}
+
+input {
+	margin-bottom: 3px;
+	margin-left: 5px;
 	padding: 5px;
+	vertical-align: top;
+}
+
+div#details {
+	margin-left: 20px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+div#address {
+	margin-left: 20px;
+	display: inline-block;
+}
+
+#register {
+	margin-left: 26px;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 20px 0 20px 20px;
+	background-color: #ffd8cc;
+	color: #cc0000;
+	text-align: left;
+}
+
+#footer a {
+	margin-right: 10px;
+	font-size: 12pt;
 }
